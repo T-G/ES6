@@ -29,4 +29,5 @@ class Student {
 
 s1 = new Student(1, "Dew")
 s1.addSubject("Drawing");
+document.getElementById("demo").innerHTML = s1.printStudentName();
 console.log(s1.printStudentName());
